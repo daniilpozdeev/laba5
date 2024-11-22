@@ -1,0 +1,145 @@
+body {
+    background-color: #d3d3f7;
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.l {
+    margin-left:30px;
+}
+p, li {
+    font-size: 16px;
+    color: #666;
+}
+
+a {
+    color: #0057a0;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.info-section, .photo-section {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-section {
+    width: 65%;
+}
+
+.photo-section {
+    width: 30%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+    .header a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #ff9999;
+    margin-bottom: 10px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cce0ff;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #99cc99;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f0e68c;
+    padding: 10px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcccb;
+    margin: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+
+.red {
+    border-color: red;
+}
+
+.blue {
+    border-color: blue;
+}
+
+.green {
+    border-color: green;
+}
+
+
+
+.fixed-cat {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+}
